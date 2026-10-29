@@ -1,1 +1,9 @@
+COMP 264 - HW4 Reflection
 
+For this assignment =, I wrote an x86-64 assembly function that calculates the nth Fibonacci number. I used registers to keep track of the current number, the previous number, and a temporary value. I used a counter and a conditional jump to repeat the calculations until the required number of iterations was complete.
+
+I wrote a C test program to call the assembly function and compare its results with expected Fibonacci numbers. I also created a Makefile to compile the C and assembly files separately and link their object files into an executable.
+
+I used ChatGPT to help me understand the assembly function, C test program, and Makefile. I also had ChatGPT summarize and review the lecture notes to understand the register conventions, arithmetic operations, and conditional jumps. I tested the program using the supplied test cases so that I know for certain that my code works.
+
+One thing I learned was how a loop in a high-level language can be implemented with assembly instructions that update registers and use condition codes to control execution.
